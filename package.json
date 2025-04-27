@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "crawlee": "^3.13.2",
+    "dotenv": "^16.4.7",
+    "got-scraping": "^4.1.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "mime": "^4.0.6",
+    "node-html-parser": "^7.0.1",
+    "playwright": "^1.52.0",
+    "robots-parser": "^3.0.1",
+    "sendmail": "^1.6.1"
+  },
+  "name": "job-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
