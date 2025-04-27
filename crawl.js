@@ -16,7 +16,7 @@ const crawler = new PlaywrightCrawler({
         await page.click('.search-results-enhanced-sort-criteria select');
 
         await page.selectOption('.search-results-enhanced-sort-criteria select', '11');*/
-console.log(request.selector)
+console.log(request.userData)
         //if(request.dropDown.value > 0) {
            /* const dropDownList = page.locator('.search-results-enhanced-sort-criteria select');
             console.log(dropDownList)
