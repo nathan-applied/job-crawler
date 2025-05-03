@@ -8,7 +8,14 @@ on:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-
+    env:
+      ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+      ACCESS_SECRET_KEY: ${{ secrets.ACCESS_SECRET_KEY }}
+      SLACK_WEBHOOK_URL: ${{ vars.SLACK_WEBHOOK_URL }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+      R2_BUCKET: ${{ vars.R2_BUCKET }}
+      USER_EMAIL: ${{ vars.USER_EMAIL }}
+      DISCORD_WEBHOOK_URL: ${{ vars.DISCORD_WEBHOOK_URL }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
