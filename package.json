@@ -1,13 +1,16 @@
 {
   "type": "module",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.802.0",
     "cheerio": "^1.0.0",
     "crawlee": "^3.13.2",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "got-scraping": "^4.1.1",
     "json2csv": "^6.0.0-alpha.2",
+    "jsonfile": "^6.1.0",
     "mime": "^4.0.6",
     "node-html-parser": "^7.0.1",
+    "nodemailer": "^6.10.1",
     "playwright": "^1.52.0",
     "robots-parser": "^3.0.1",
     "sendmail": "^1.6.1"

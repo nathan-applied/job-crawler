@@ -1,0 +1,209 @@
+[
+    {
+      "url": "https://www.disneycareers.com/en/search-jobs?k=coordinator&l=Los+Angeles%2C+CA&orgIds=391",
+      "userData": {
+        "title": "Disney",
+        "interactions": [
+          {
+            "selector": ".search-results-enhanced-sort-criteria select",
+            "value": 11,
+            "type": "dropDown"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.nbcunicareers.com/find-a-job?&keyword=coordinator&location=1104,1092,2996,8341#jobs_search-react-main-wrapper",
+      "userData": {
+        "title": "NBC Universal"
+      }
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/wrapbook",
+      "userData": {
+        "title": "Wrapbook"
+      }
+    },
+    {
+      "url": "https://warnerbros.wd5.myworkdayjobs.com/en-US/global/jobs?q=coordinator&locations=d3a1c2776673102ed9e71ba7d31296e2&locations=a885d084954a01d71b4c59457a599afd&locations=d3a1c2776673102ed9ecceb530629cda&locations=d3a1c2776673102ed9ee6d300bda9e7f&locations=d3a1c2776673102ed9ee946a6f6a9ec0&locations=d3a1c2776673102ed9ecec25f6729d11&locations=d3a1c2776673102ed9eaac4b6a029a6d&locations=d3a1c2776673102ed9ee645324029e70&locations=d3a1c2776673102ed9ec9a9d09b29c76&locations=e7f67d9b72630123638b3ae4356a0000&locations=730b16ca350f01064be2e049269b0000&locations=d3a1c2776673102ed9eb486275a29b8f&locations=0cf7b3f170ed01f72b864522362ec91d&locations=f91d2ab82c750196c7988e8315206c83&locations=d3a1c2776673102ed9e8fea5c65a98a5",
+      "userData": {
+        "title": "Warner Bros. Discovery"
+      }
+    },
+    {
+      "url": "https://explore.jobs.netflix.net/careers?query=Coordinator&location=United%20States&pid=790302671438&domain=netflix.com&sort_by=new",
+      "userData": {
+        "title": "Netflix"
+      }
+    },
+    {
+      "url": "https://careers.paramount.com/search/?createNewAlert=false&q=coordinator&locationsearch=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield3=",
+      "userData": {
+        "title": "Paramount"
+      }
+    },
+    {
+      "url": "https://jobs.apple.com/en-us/search?search=coordinator&sort=newest&location=los-angeles-metro-area-LAMETRO+los-angeles-LAS+culver-city-CUL",
+      "userData": {
+        "title": "Apple TV+"
+      }
+    },
+    {
+      "url": "https://www.sonypicturesjobs.com/search-jobs?k=coordinator&l=Los+Angeles%2C+CA&r=50&orgIds=22978",
+      "userData": {
+        "title": "Sony Pictures"
+      }
+    },
+    {
+      "url": "https://www.amazon.jobs/content/en/teams/amazon-entertainment/prime-video?country%5B%5D=US&region%5B%5D=California&city%5B%5D=Culver+City&city%5B%5D=Los+Angeles&keyword%5B%5D=coordinator",
+      "userData": {
+        "title": "Amazon Jobs"
+      }
+    },
+    {
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/All/07c8d9de-9e8b-43d7-a4ac-acfdf615588a/Legendary-Entertainment?search=coordinator&location=All%20Locations&department=All%20Departments",
+      "userData": {
+        "title": "Legendary Pictures"
+      }
+    },
+    {
+      "url": "https://corporate.tubitv.com/careers/#open-positions",
+      "userData": {
+        "title": "Tubi",
+        "interactions": [
+          {
+            "selector": "#job-postings-search",
+            "value": "coordinator",
+            "type": "text"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://aenetworks.wd1.myworkdayjobs.com/AE-Careers?q=coordinator",
+      "userData": {
+        "title": "A&E"
+      }
+    },
+    {
+      "url": "https://www.metacareers.com/jobs?q=coordinator&offices[0]=Los%20Angeles%2C%20CA&sort_by_new=true",
+      "userData": {
+        "title": "Meta"
+      }
+    },
+    {
+      "url": "https://us.meta.talentnet.community/jobs/search?q=coordinator",
+      "userData": {
+        "title": "Meta CW"
+      }
+    },
+    {
+      "url": "https://jobs.careers.microsoft.com/global/en/search?q=coordinator&lc=California%2C%20United%20States&lc=Los%20Angeles%2C%20California%2C%20United%20States&l=en_us&pg=1&pgSz=20&o=Recent&flt=true",
+      "userData": {
+        "title": "Microsoft"
+      }
+    },
+    {
+      "url": "https://us.microsoft.talentnet.community/jobs/search?q=coordinator",
+      "userData": {
+        "title": "Microsoft CW"
+      }
+    },
+    {
+      "url": "https://lifeattiktok.com/search?keyword=coordinator&recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_94&limit=12&offset=0",
+      "userData": {
+        "title": "TikTok"
+      }
+    },
+    {
+      "url": "https://www.epicgames.com/site/en-US/careers/jobs?country=United%20States&state=California&keyword=coordinator",
+      "userData": {
+        "title": "Epic Games"
+      }
+    },
+    {
+      "url": "https://www.naughtydog.com/openings",
+      "userData": {
+        "title": "Naughty Dog"
+      }
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/SecondDinner",
+      "userData": {
+        "title": "Second Dinner"
+      }
+    },
+    {
+      "url": "https://www.wildlight.gg/join-us",
+      "userData": {
+        "title": "WildLight"
+      }
+    },
+    {
+      "url": "https://candidateportal.creativecircle.com/search/Coordinator?locationKeyword=California%2C+CA&location=34.0901%2C-118.406&days=0&sortType=date&page=1",
+      "userData": {
+        "title": "Creative Circle"
+      }
+    },
+    {
+      "url": "https://aquenttalent.com/talent/jobs?locations%5B%5D=los-angeles&keyword_search=coordinator",
+      "userData": {
+        "title": "Aquent Talent"
+      }
+    },
+    {
+      "url": "https://www.hubspot.com/careers/jobs?hubs_signup-url=www.hubspot.com%2Fcareers&hubs_signup-cta=careers-homepage-hero&hubs_content=www.hubspot.com%2F&hubs_content-cta=Careers+&page=1",
+      "userData": {
+        "title": "Hubspot"
+      }
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/wistia",
+      "userData": {
+        "title": "Wistia"
+      }
+    },
+    {
+      "url": "https://clickfunnels.bamboohr.com/careers",
+      "userData": {
+        "title": "Click Funnels"
+      }
+    },
+    {
+      "url": "https://jobs.lever.co/shippo?location=United%20States",
+      "userData": {
+        "title": "Shippo"
+      }
+    },
+    {
+      "url": "https://app.swooped.co/job-postings?addressId=22794739-b1f6-48f3-8b36-b85e7e78d158&locationDistance=25&postingTimeframe=last_day&search=coordinator&selectedJobId=a788778f-0ab1-4dde-8386-d76a98fec999",
+      "userData": {
+        "title": "Swooped"
+      }
+    },
+    {
+      "url": "https://www.teamworkonline.com/baseball-jobs/los-angeles-dodgers-jobs/los-angeles-dodgers",
+      "userData": {
+        "title": "L.A. Dodgers"
+      }
+    },
+    {
+      "url": "https://greenslate.com/careers",
+      "userData": {
+        "title": "Green Slate"
+      }
+    },
+    {
+      "url": "https://castandcrew.wd5.myworkdayjobs.com/CastandCrew",
+      "userData": {
+        "title": "Cast & Crew"
+      }
+    },
+    {
+      "url": "https://www.ep.com/careers/",
+      "userData": {
+        "title": "Entertainment Partners"
+      }
+    }
+  ]
+  
