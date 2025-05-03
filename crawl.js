@@ -109,7 +109,7 @@ const crawler = new PlaywrightCrawler({
         for (let i=0; i< jobs.length; i++)
         {
           let job = $(jobs[i]); 
-          let href = job.attr('href')?.toString() || ''; 
+          let href = job.attr('href')?.toString().replace(/^\/+/, '') || ''; 
           let title = job.text().replace(/[\r\n]+/g, ' ').trim();
           if(title == 'Apply')
             title = job.attr('aria-label')?.toString();
