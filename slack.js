@@ -2,6 +2,8 @@
 const sendSlackNotification = async (jobs) => {
     const webhookUrl = process.env.SLACK_WEBHOOK_URL; // Best practice: store in env var
 
+    if (!webhookUrl) return false;
+    
     let messageLines = ['*🆕 New jobs posted!*'];
 
     for (let company of Object.keys(jobs)) {
