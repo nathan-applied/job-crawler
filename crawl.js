@@ -114,7 +114,7 @@ const crawler = new PlaywrightCrawler({
           if(title == 'Apply')
             title = job.attr('aria-label')?.toString();
           let id = `${href}${title}`;
-          let link = (id.indexOf('http') != -1) ? id : `${baseurl}/${href}`;
+          let link = (href.indexOf('http') != -1) ? href : `${baseurl}/${href}`;
           if(!Array.isArray(seen_jobs) || seen_jobs.find(j => j.id === id) === undefined){
             if(title && title.toString() != '' && id && id != '' && id != '#'){
               let job_obj = {
