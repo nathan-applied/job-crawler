@@ -12,7 +12,7 @@ const sendSlackNotification = async (jobs) => {
     }
 
     const payload = {
-        text: messageLines.join('\n')
+        text: messageLines.join('\r\n')
     };
 
     console.log(payload)
