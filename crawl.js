@@ -9,7 +9,7 @@ import R2Handler from './r2handler.js';
 import sendSlackNotification from './slack.js';
 import sendDiscordNotification from './discord.js';
 
-const { CLOUDFLARE_ACCOUNT_ID, ACCESS_KEY_ID, ACCESS_SECRET_KEY, R2_BUCKET, USER_EMAIL } = process.env
+const { CLOUDFLARE_ACCOUNT_ID, ACCESS_KEY_ID, ACCESS_SECRET_KEY, R2_BUCKET, USER_EMAIL, SEARCH_STATE, SEARCH_STATE_FULL } = process.env
 console.log(R2_BUCKET)
 
 const SEEN_JOBS_FILE_R2 = `${USER_EMAIL}_SEEN_JOBS.json`;
@@ -54,7 +54,7 @@ const crawler = new PlaywrightCrawler({
         let label = request.userData.title;
         let new_jobs = [];
         let seen_jobs = all_seen_jobs[label] ? all_seen_jobs[label] : [];
-        console.log('---'+label);
+        console.log('---###'+label);
         //console.log(seen_jobs);
 
         try {
@@ -109,6 +109,14 @@ const crawler = new PlaywrightCrawler({
         for (let i=0; i< jobs.length; i++)
         {
           let job = $(jobs[i]); 
+          let parent = job.closest('tr.showing-jobs');
+          
+          if(parent && parent.length && parent?.find('.city-location')?.text()?.toString() != ''){
+            let location = parent?.find('.city-location')?.text()?.toString()?.toLowerCase();
+            if(location && location?.indexOf(SEARCH_STATE.toLowerCase()) == -1 && location?.indexOf(SEARCH_STATE_FULL.toLowerCase()) == -1 && location != 'remote')
+              continue;
+          }
+            
           let href = job.attr('href')?.toString().replace(/^\/+/, '') || ''; 
           let title = job.html().replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').replace(/[\r\n]+/g, ' ').trim();
           if(title == 'Apply')
