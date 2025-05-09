@@ -93,7 +93,7 @@ const crawler = new PlaywrightCrawler({
         // Fourth, parse the browser's page with Cheerio.
         const $ = await parseWithCheerio();
 
-        const exclusions = `:not([class*="filter"]):not([class*="share-link"]):not([class*="modal"]):not([class*="popup"]):not(nav *):not(footer *):not(header *):not([class*="modal"] *):not([class*="job-description"] *):not([class*="footer"] *):not([class*="menu"] *):not([class*="popup"] *):not([class*="privacy-policy"] *):not([role="alertdialog"] *):not([aria-modal="true"] *):not([aria-hidden="true"] *):not([style*="visibility: hidden"] *):not([aria-label="cookie-policy"]):not([aria-label="data-policy"]):not([aria-label="privacy-policy"])`;
+        const exclusions = `:not([class*="filter"]):not([class*="share-link"]):not([class*="modal"]):not([class*="popup"]):not(nav *):not(footer *):not(header *):not([class*="modal"] *):not([class*="job-description"] *):not([class*="js-hub-item"] *):not([class*="footer"] *):not([class*="menu"] *):not([class*="popup"] *):not([class*="privacy-policy"] *):not([role="alertdialog"] *):not([aria-modal="true"] *):not([aria-hidden="true"] *):not([style*="visibility: hidden"] *):not([aria-label="cookie-policy"]):not([aria-label="data-policy"]):not([aria-label="privacy-policy"])`;
 
         let jobs = $(`a[href*="job"]${exclusions}, 
           a[href*="career"]${exclusions}, 
