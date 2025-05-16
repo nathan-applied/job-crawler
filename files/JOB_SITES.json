@@ -75,6 +75,11 @@
             "selector": "#job-postings-search",
             "value": "coordinator",
             "type": "text"
+          },
+          {
+            "selector": "#job-posting-location",
+            "value": "Los Angeles, CA (Hybrid); Remote",
+            "type": "dropDown"
           }
         ]
       }
@@ -173,12 +178,6 @@
       "url": "https://jobs.lever.co/shippo?location=United%20States",
       "userData": {
         "title": "Shippo"
-      }
-    },
-    {
-      "url": "https://app.swooped.co/job-postings?addressId=a668be05-a8e5-4b05-8b75-f5530c0e3147&locationDistance=25&postingTimeframe=last_day&search=coordinator",
-      "userData": {
-        "title": "Swooped"
       }
     },
     {
