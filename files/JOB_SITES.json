@@ -75,11 +75,6 @@
             "selector": "#job-postings-search",
             "value": "coordinator",
             "type": "text"
-          },
-          {
-            "selector": "#job-posting-location",
-            "value": "Los Angeles, CA (Hybrid); Remote",
-            "type": "dropDown"
           }
         ]
       }

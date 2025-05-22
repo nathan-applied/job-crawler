@@ -116,6 +116,10 @@ const crawler = new PlaywrightCrawler({
             if(location && location?.indexOf(SEARCH_STATE.toLowerCase()) == -1 && location?.indexOf(SEARCH_STATE_FULL.toLowerCase()) == -1 && location != 'remote')
               continue;
           }
+
+          let parentDiv = job.closest('div');
+          if(parentDiv && parentDiv?.length && parentDiv?.text()?.toString()?.match(/\b(?!1\s+day)(\d+\s+)?(year|month|week|day)s?\b/i)?.length)
+            continue;
             
           let href = job.attr('href')?.toString().replace(/^\/+/, '') || ''; 
           let title = job.html().replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').replace(/[\r\n]+/g, ' ').trim();

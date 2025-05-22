@@ -1,6 +1,6 @@
 
 const sendSlackNotification = async (jobs) => {
-    const webhookUrl = process.env.SLACK_WEBHOOK_URL; // Best practice: store in env var
+    const webhookUrl = process.env.SLACK_WEBHOOK_URL;
 
     if (!webhookUrl) return false;
     

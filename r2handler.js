@@ -3,8 +3,6 @@
 import { PutObjectCommand, S3Client, GetObjectCommand  } from "@aws-sdk/client-s3";
 
 
-
-//console.log(process.env)
 const streamToString = async (stream) => {
     return await new Promise((resolve, reject) => {
       const chunks = [];
@@ -43,8 +41,7 @@ class R2Handler {
           } catch (err) {
             console.error('❌ Upload failed:', err);
           }
-        
-        
+         
     }
 
     async getJsonFromS3 (key) {
