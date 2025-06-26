@@ -125,6 +125,8 @@ const crawler = new PlaywrightCrawler({
           let title = job.html().replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').replace(/[\r\n]+/g, ' ').trim();
           if(title == 'Apply')
             title = job.attr('aria-label')?.toString();
+          if(title == '+ View details')
+            title = job.closest('.resumator-job')?.text()?.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').replace(/[\r\n]+/g, ' ').trim();
           let id = `${href}${title}`;
           let link = (href.indexOf('http') != -1) ? href : `${baseurl}/${href}`;
           if(!Array.isArray(seen_jobs) || seen_jobs.find(j => j.id === id) === undefined){
